@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+#page>nav>h3{
+    font-weight: 500;
+}
+#page>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page-bottom{
+    height: 20%;
+    width: 25%;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-bottom>h3{
+    margin-bottom: 1vw;
+}
+#page-bottom>h1{
+    font-size: 50px;
+}
+
+
+
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
