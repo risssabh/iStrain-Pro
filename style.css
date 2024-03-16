@@ -8,6 +8,7 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
 #main{
     position: relative;
     overflow: hidden;
@@ -32,15 +33,20 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
 }
-#page>nav>img{
+#page>nav>a>img{
     width: 180px;
     height: 50px;
 }
-#page>nav>button{
+.notif{
     padding: 7px 20px;
     border-radius: 50px;
+    text-decoration: none;
     border: none;
     background-color: white;
+    color: black;
+}
+.notif:hover{
+    background-color: rgb(215, 215, 215);
 }
 #page>video{
     height: 100%;
@@ -104,6 +110,10 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+#page2>video::after{
+    width: 100%;
+    height: 100%
 }
 #page2>h1{
     font-size: 4vw;
@@ -184,13 +194,14 @@ html,body{
 }
 #page4-upper-inner>h3{
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 #page4-upper>h4{
     font-weight: 500;
     font-size: 14px;
     position: absolute;
-    bottom: 0%;
+    margin-top: 300px;
+    bottom: -3%;
     height: 22%;
     width: 100%;
     display: flex;
@@ -199,7 +210,7 @@ html,body{
     padding: 0px 160px;
     color: rgb(129, 129, 129);
 }
-#page4>button{
+#page4>a{
     position: absolute;
     bottom: 7%;
     left: 50%;
@@ -210,6 +221,11 @@ html,body{
     background-color: #fff;
     border-radius: 50px;
     font-size: 1.4vw;
+    text-decoration: none;
+    color: black;
+}
+#page4>a:hover{
+    background-color: #ff7830;
 }
 
 
@@ -271,7 +287,7 @@ html,body{
     width: 90%;
     color: #484848d7;
 }
-.right6>button{
+.right6>a{
     padding: 10px 20px;
     border: none;
     background-color: #ff5a01;
@@ -280,6 +296,10 @@ html,body{
     border-radius: 50px;
     font-size: 1.3vw;
     margin-top: 1.5vw;
+    text-decoration: none;
+}
+.right6>a:hover{
+    background-color: #ff7830;
 }
 
 
@@ -339,7 +359,7 @@ html,body{
     width: 90%;
     color: #484848d7;
 }
-.right8>button{
+.right8>a{
     padding: 10px 20px;
     border: none;
     background-color: #ff5a01;
@@ -348,6 +368,10 @@ html,body{
     border-radius: 50px;
     font-size: 1.3vw;
     margin-top: 1.5vw;
+    text-decoration: none;
+}
+.right8>a:hover{
+    background-color: #ff7830;
 }
 
 
@@ -545,7 +569,7 @@ html,body{
     position: absolute;
     bottom: 0%;
 }
-#page17>button{
+#page17>a{
     position: absolute;
     bottom: 10%;
     padding: 10px 20px;
@@ -555,6 +579,10 @@ html,body{
     color: #fff;
     font-weight: 500;
     border: none;
+    text-decoration: none;
+}
+#page17>a:hover{
+    background-color: #ff7830;
 }
 #page18{
     position: relative;
